@@ -37,3 +37,5 @@ var x = u switch
 
 // Nullability - standard nullability notation
 U? u = null;
+
+// https://github.com/dotnet/csharplang/blob/main/proposals/TypeUnions.md
