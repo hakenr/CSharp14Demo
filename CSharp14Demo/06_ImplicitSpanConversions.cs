@@ -23,7 +23,5 @@ public class  Demo
 		mySpan.HasSingle('x');   // C# 14 
 		myArray.HasSingle('x');  // C# 14
 		someType.HasSingle('x');   // C# 14 if there is an implicit conversion operator to Span/ReadOnlySpan/T[]
-	}
-
-	
+	}	
 }
