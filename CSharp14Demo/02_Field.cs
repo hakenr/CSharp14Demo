@@ -17,7 +17,7 @@ public class Demo
 	// C# 14
 	public string Message
 	{
-		get;
+		get;  // can be auto-implemented
 		set => field = value ?? throw new ArgumentNullException(nameof(value));
 	}
 }
