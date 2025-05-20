@@ -44,5 +44,7 @@ public class Demo
 
 		Console.WriteLine(string.IsNullOrNewLine(null));
 		Console.WriteLine(string.IsNullOrNewLine("\n"));
+
+		Console.WriteLine(str.NormalizedLength);
 	}
 }
