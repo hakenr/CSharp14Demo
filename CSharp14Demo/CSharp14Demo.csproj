@@ -12,6 +12,11 @@
 	  <Compile Remove="x1_TypeUnions_StandardUnions.cs" />
 	  <Compile Remove="x2_TypeUnions_UnionStructs.cs" />
 	  <Compile Remove="x3_TypeUnions_AdHocUnions.cs" />
+	  <Compile Remove="x5_DictionaryExpressions.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="x5_DictionaryExpressions.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
