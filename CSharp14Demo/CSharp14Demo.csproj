@@ -8,4 +8,16 @@
 		<LangVersion>preview</LangVersion>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <Compile Remove="x1_TypeUnions_StandardUnions.cs" />
+	  <Compile Remove="x2_TypeUnions_UnionStructs.cs" />
+	  <Compile Remove="x3_TypeUnions_AdHocUnions.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="x3_TypeUnions_AdHocUnions.cs" />
+	  <None Include="x2_TypeUnions_UnionStructs.cs" />
+	  <None Include="x1_TypeUnions_StandardUnions.cs" />
+	</ItemGroup>
+
 </Project>
